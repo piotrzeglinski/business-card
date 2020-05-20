@@ -1,71 +1,79 @@
 html {
-    box-sizing: border-box;
-    }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 body {
-    background: #2C2141;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+  background: #16697a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main {
-    background: #F8F8F8;
-    border-radius: 16px;
-    width: 624px;
-    margin: 16px;
-    padding: 32px;
+  background: #000000;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+  font-style: normal;
+  color: white;
+  transform: skew(-5deg, 0deg);
+  box-shadow: 0px 0px 50px 20px #42cafd;
 }
 
 .person {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
 .person__description {
-    font-size: 16px;
-    line-height: 22px;
-    margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
 }
 
 .person__description--with-margin {
-    margin-bottom: 22px;
+  margin-bottom: 22px;
 }
 
 .person__name {
-    font-size: 36px;
-    margin: 0;
-    font-weight: normal;
+  font-size: 30px;
+  margin: 0;
+  font-weight: normal;
 }
 
 .person__info {
-    margin-bottom: 24px;;
+  margin-bottom: 24px;
 }
 
 .person__picture {
-    margin-right: 32px;
+  margin-right: 32px;
+  border-radius: 22px;
 }
 
 .person__position {
-    font-size: 18px;
-    font-style: italic;
-    margin: 0;
-    color: #545454;
-}
-
-.special {
-    color: #ED6D05;
-    font-weight: normal;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0;
+  color: #545454;
 }
 
 .person__link {
-    color: #E20613;
+    color: #ffba49;
     font-weight: normal;
     text-decoration: none;
+    margin: 13px 13px 13px 0;
+}
+
+.special {
+  color: #62bbc1;
+  font-weight: normal;
 }
